@@ -1,0 +1,10 @@
+{
+  "schema": "novel-retrieval/v1",
+  "vector": {
+    "provider": "disabled",
+    "model": null
+  },
+  "fusion": "rrf",
+  "graph_hops": 2,
+  "max_documents": 16
+}

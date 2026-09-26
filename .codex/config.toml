@@ -1,0 +1,57 @@
+# Novel Agent Framework repository-local Codex roles.
+[agents]
+enabled = true
+max_depth = 1
+max_concurrent_threads_per_session = 8
+
+[agents."novel-story-director"]
+description = "Story Director and bounded adjudicator"
+config_file = "agents/novel-story-director.toml"
+
+[agents."novel-plot-architect"]
+description = "Long-range and rolling plot architect"
+config_file = "agents/novel-plot-architect.toml"
+
+[agents."novel-world-builder"]
+description = "World rules and setting consistency specialist"
+config_file = "agents/novel-world-builder.toml"
+
+[agents."novel-character-agent"]
+description = "Character motivation, arc, relationship, and epistemic-state specialist"
+config_file = "agents/novel-character-agent.toml"
+
+[agents."novel-chapter-planner"]
+description = "Chapter-first planner and ChapterContract author"
+config_file = "agents/novel-chapter-planner.toml"
+
+[agents."novel-writer"]
+description = "Korean prose writer for one of the fixed A/B/C candidate lenses"
+config_file = "agents/novel-writer.toml"
+
+[agents."novel-dialogue-specialist"]
+description = "Korean dialogue, subtext, honorific, and register reviewer"
+config_file = "agents/novel-dialogue-specialist.toml"
+
+[agents."novel-continuity-reviewer"]
+description = "Temporal, object, world-rule, reveal, and knowledge continuity reviewer"
+config_file = "agents/novel-continuity-reviewer.toml"
+
+[agents."novel-character-consistency-reviewer"]
+description = "Character motivation and OOC consistency reviewer"
+config_file = "agents/novel-character-consistency-reviewer.toml"
+
+[agents."novel-foreshadowing-tracker"]
+description = "Foreshadow, promise/payoff, and unresolved-thread reviewer"
+config_file = "agents/novel-foreshadowing-tracker.toml"
+
+[agents."novel-style-critic"]
+description = "Korean prose craft and author-voice critic"
+config_file = "agents/novel-style-critic.toml"
+
+[agents."novel-reader-simulator"]
+description = "Blind first-time reader simulator"
+config_file = "agents/novel-reader-simulator.toml"
+
+[agents."novel-state-scanner"]
+description = "Independent prose-to-state scanner and continuity observer"
+config_file = "agents/novel-state-scanner.toml"

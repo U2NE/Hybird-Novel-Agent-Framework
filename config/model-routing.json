@@ -1,0 +1,94 @@
+{
+  "schema": "novel-model-routing/v1",
+  "fallback": "fail-closed",
+  "models": {
+    "luna": "gpt-6-luna",
+    "sol": "gpt-6-sol"
+  },
+  "routes": {
+    "story-director": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "story-director-hard": {
+      "model": "gpt-6-sol",
+      "effort": "high"
+    },
+    "plot-architect": {
+      "model": "gpt-6-sol",
+      "effort": "high"
+    },
+    "plot-architect-rolling": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "world-builder": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "character-agent": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "character-agent-major": {
+      "model": "gpt-6-sol",
+      "effort": "high"
+    },
+    "chapter-planner": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "writer": {
+      "model": "gpt-6-luna",
+      "effort": "low"
+    },
+    "dialogue-specialist": {
+      "model": "gpt-6-luna",
+      "effort": "low"
+    },
+    "continuity-reviewer": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "character-consistency-reviewer": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "foreshadowing-tracker": {
+      "model": "gpt-6-luna",
+      "effort": "low"
+    },
+    "style-critic": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "reader-simulator": {
+      "model": "gpt-6-luna",
+      "effort": "low"
+    },
+    "tournament-hard": {
+      "model": "gpt-6-sol",
+      "effort": "high"
+    },
+    "state-scanner": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "tournament-judge": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "regression-reviewer": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    },
+    "character-sandbox": {
+      "model": "gpt-6-luna",
+      "effort": "medium"
+    }
+  },
+  "writer_effort_benchmark": [
+    "none",
+    "low"
+  ]
+}
